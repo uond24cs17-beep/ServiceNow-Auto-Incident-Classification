@@ -1,28 +1,29 @@
-# ⚙️ PHASE 5: PROJECT DEVELOPMENT
+# ⚡ Phase 5: Implementation - Part 2
 
 ---
 
-## 🛠️ Step-by-Step Implementation
-
-# **1. Trigger Setup**
-* Table: **Incident `[sys_id]`**
-* Condition: **Created**
+## 📌 Objective
+To build the workflow trigger and conditional logic using ServiceNow Flow Designer.
 
 ---
 
-# **2. Logic Configuration**
-* Added **If / Else-If** conditional branches in Flow Designer.
-* Configured string matching routines for `Short Description`.
+## ⚡ Step 1: Trigger Setup
+* **Trigger Condition:** Created Record on **Incident Workflow** table.
 
 ---
 
-# **3. Action Execution**
-* Created **Update Record** action to update fields automatically:
-  * Set `Category`
-  * Set `Subcategory`
-  * Set `Assignment Group`
+## 🔀 Step 2: Conditional Actions
+* 📶 **If Short Description contains "WiFi" or "Network":** 
+  ➔ Update Record ➔ Category: Network, Subcategory: Wi-Fi
+* 📹 **Else If Short Description contains "Projector":** 
+  ➔ Update Record ➔ Category: Hardware, Subcategory: Projector
+* 🔑 **Else If Short Description contains "Password":** 
+  ➔ Update Record ➔ Category: Access, Subcategory: Forgot Password
+* 💻 **Else If Short Description contains "Slow":** 
+  ➔ Update Record ➔ Category: Performance, Subcategory: Slow Computer
 
 ---
 
-# **4. Activation**
-* Published and activated the flow in the ServiceNow instance environment.
+## 📧 Step 3: Notification Action
+* Added **Send Email** action to notify the caller upon classification completion.
+
