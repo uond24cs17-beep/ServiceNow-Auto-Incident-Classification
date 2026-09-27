@@ -1,4 +1,4 @@
-# 🎬 PHASE 8: PROJECT DEMONSTRATION
+# 🎬 Phase 8: Project Demonstration
 
 ---
 
@@ -7,20 +7,26 @@
 
 ---
 
-## 📹 Video & Deliverables Summary
-
-### 1. **Live Demonstration Video**
-> 📌 **Note:** The complete working video demonstration of the ServiceNow Flow Designer execution has been uploaded and submitted directly on the **SkillWallet Portal**[span_1](start_span)[span_1](end_span).
+## 🎯 Purpose of the Project
+The purpose of this project is to automatically classify IT support tickets based on the issue description, reducing manual effort and improving routing efficiency.
 
 ---
 
-### 2. **Verification Highlights**
-* **Trigger Test:** Incident record creation automatically triggers the flow.
-* **Keyword Detection:** Short description inspected for routing conditions.
-* **Field Updates:** Category, Subcategory, and Assignment Group updated instantly.
-* **End-to-End Success:** All test scenarios passed live without any manual intervention.
+## 🌟 Key Benefits
+* 🤖 Automatic ticket classification
+* ⏱️ Reduced manual effort
+* 🎯 Improved ticket routing
+* 🏷️ Consistent Category and Subcategory assignment
 
 ---
 
-## 🏁 Final Project Status
-# **Status: Completed & Verified (100%)**
+## 🧪 Demonstration Scenarios
+* 📶 **Wi-Fi Issue:** `WiFi not working in library` ➔ Category: Network, Subcategory: Wi-Fi
+* 📹 **Projector Issue:** `Projector not turning on` ➔ Category: Hardware, Subcategory: Projector
+* 🔑 **Password Issue:** `Forgot Password` ➔ Category: Access, Subcategory: Forgot Password
+* 💻 **Slow Computer Issue:** `Slow Computer` ➔ Category: Performance, Subcategory: Slow Computer
+
+---
+
+## 📹 Demo Video👇
+          https://drive.google.com/file/d/1k7DLwueAE1rcMJ9GYi0pZ-9l6ZwLC6g9/view?usp=drivesdk
