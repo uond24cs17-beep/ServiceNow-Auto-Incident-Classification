@@ -28,5 +28,5 @@ The purpose of this project is to automatically classify IT support tickets base
 
 ---
 
-## 📹 Demo Video👇
-          https://drive.google.com/file/d/1k7DLwueAE1rcMJ9GYi0pZ-9l6ZwLC6g9/view?usp=drivesdk
+## 📹 Demo Video : https://drive.google.com/file/d/1k7DLwueAE1rcMJ9GYi0pZ-9l6ZwLC6g9/view?usp=drivesdk
+
