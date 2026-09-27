@@ -1,22 +1,32 @@
-# 📚 Phase 7: Documentation and Deployment
+# 🎬 Phase 8: Project Demonstration
 
 ---
 
-## 📌 Objective
-To document deployment instructions and finalize user guides for operational use.
+## 📌 Project Title
+# **Auto Ticket Classification using Flow Designer**
 
 ---
 
-## 🚀 Deployment Steps
-1. 📦 Export the Update Set containing Table configurations and Flow Designer rules from Dev instance.
-2. 📥 Import and preview Update Set in Production instance.
-3. ✅ Commit Update Set.
-4. ⚙️ Verify Flow Designer is Active and published.
+## 🎯 Purpose of the Project
+The purpose of this project is to automatically classify IT support tickets based on the issue description, reducing manual effort and improving routing efficiency.
 
 ---
 
-## 📖 User Guide
-1. 🌐 Log into the ServiceNow Portal.
-2. 🎟️ Navigate to IT Support ➔ Submit Ticket.
-3. 📝 Enter details and submit.
-4. 🤖 Check automated Category/Subcategory assignment.
+## 🌟 Key Benefits
+* 🤖 Automatic ticket classification
+* ⏱️ Reduced manual effort
+* 🎯 Improved ticket routing
+* 🏷️ Consistent Category and Subcategory assignment
+
+---
+
+## 🧪 Demonstration Scenarios
+* 📶 **Wi-Fi Issue:** `WiFi not working in library` ➔ Category: Network, Subcategory: Wi-Fi
+* 📹 **Projector Issue:** `Projector not turning on` ➔ Category: Hardware, Subcategory: Projector
+* 🔑 **Password Issue:** `Forgot Password` ➔ Category: Access, Subcategory: Forgot Password
+* 💻 **Slow Computer Issue:** `Slow Computer` ➔ Category: Performance, Subcategory: Slow Computer
+
+---
+
+## 📹 Demo Video : https://drive.google.com/file/d/1k7DLwueAE1rcMJ9GYi0pZ-9l6ZwLC6g9/view?usp=drivesdk
+
