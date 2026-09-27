@@ -1,27 +1,26 @@
-# 🚀 PHASE 1: BRAINSTORMING & IDEATION
+# 📌 Phase 1: Project Requirement and Scope
 
 ---
 
-## 📌 Project Title
+## 🎯 Project Title
 # **Auto Ticket Classification using Flow Designer**
 
 ---
 
-## 💡 Problem Statement
-The IT service desk receives high volumes of incident tickets daily regarding Wi-Fi issues, password resets, hardware failures, and software glitches. Manual categorization leads to:
-* **Significant Delays** in ticket resolution
-* **Human Errors** in manual routing
-* **High Operational Workload** on helpdesk agents
+## 🚀 Objective
+To automate the classification of IT support tickets using ServiceNow Flow Designer, reducing manual assignment effort and speeding up issue resolution.
 
 ---
 
-## 🎯 Proposed Solution
-Implement an automated workflow in **ServiceNow using Flow Designer** to inspect incoming incident details and classify them instantly without human intervention.
+## 🔍 Scope
+* 🎟️ Automatically process incoming IT support tickets.
+* 📝 Read the Short Description entered by the user.
+* 🔑 Identify key terms like WiFi, Projector, Password, or Slow Computer.
+* 🔀 Automatically assign the correct Category and Subcategory.
+* 📧 Send automated email notifications to the caller upon classification.
 
 ---
 
-## 🛠️ Key Objectives
-1. **Automate Ticket Routing** based on short description keywords.
-2. **Reduce Response Time** from hours to seconds.
-3. **Eliminate Manual Errors** in assignment groups.
-4. **Deploy No-Code/Low-Code Solution** on ServiceNow PDI.
+## 👥 Target Audience
+* School and organization IT support teams
+* Students and staff members submitting support requests
