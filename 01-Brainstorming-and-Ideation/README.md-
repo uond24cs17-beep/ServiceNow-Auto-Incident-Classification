@@ -1,1 +1,17 @@
+Phase 1: Brainstorming and Ideation
+
+Project Title:
+Auto Ticket Classification using Flow Designer
+
+Problem Statement:
+The IT helpdesk receives multiple incident requests daily regarding issues like Wi-Fi connectivity, projector failures, password resets, and slow computers. Manually reviewing and assigning these tickets to the right team causes delays and increases response time.
+
+Proposed Solution:
+Automate ticket classification using ServiceNow Flow Designer by analyzing keywords in the ticket description. Based on the identified category, the flow automatically routes the incident ticket to the respective assignment group without manual intervention.
+
+Objectives:
+- Automatically classify incoming incident tickets based on keywords.
+- Reduce manual effort and routing time for helpdesk teams.
+- Improve ticket resolution efficiency and response time.
+- Implement a scalable, no-code/low-code solution using ServiceNow Flow Designer.
 
