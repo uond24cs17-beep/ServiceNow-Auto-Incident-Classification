@@ -1,31 +1,21 @@
-# 📅 PHASE 4: PROJECT PLANNING
+# 🛠️ Phase 4: Implementation - Part 1
 
 ---
 
-## ⏱️ Execution Timeline
-
-# **Phase Schedule & Milestones**
-
-### 🟢 **Day 1: Setup & Requirements**
-* Configured ServiceNow Personal Developer Instance (PDI).
-* Defined keyword classification rules and targets.
+## 📌 Objective
+To set up the foundational database architecture in ServiceNow by creating the custom table and necessary fields.
 
 ---
 
-### 🟢 **Day 2: Logic & Design**
-* Drafted workflow trigger logic and condition branches.
+## 🗂️ Step 1: Table Creation
+* Created a custom table named **Incident Workflow**.
+* Configured auto-numbering for unique ticket identification.
 
 ---
 
-### 🟢 **Day 3: Flow Construction**
-* Built actions and condition triggers in ServiceNow Flow Designer.
-
----
-
-### 🟢 **Day 4: Testing & Verification**
-* Executed end-to-end test cases on incident routing.
-
----
-
-### 🟢 **Day 5: Deployment & Documentation**
-* Finalized GitHub repository files and recorded demonstration video.
+## 📋 Step 2: Field Configuration
+* 👤 **Caller:** Created reference field pointing to User table (`sys_user`).
+* 🏷️ **Category:** Created Choice field with Network, Hardware, Access, Performance.
+* 🏷️ **Subcategory:** Created Choice field dependent on Category.
+* 📝 **Short Description & Description:** String fields for user inputs.
+* 📊 **State:** Choice field for ticket progress tracking.
